@@ -6,18 +6,52 @@ body {
     color: #f1f5f9;
     line-height: 1.6;
 }
-nav {
+.nav {
     display: flex;
     justify-content: space-between;
     padding: 20px 8%;
     align-items: center;
 }
-nav ul {
+.logo {
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #7c3aed;
+}
+.nav-links {
     list-style: none;
     display: flex;
     gap: 20px;
 }
-a {
-    color: white;
+.nav-links a {
     text-decoration: none;
+    color: #f1f5f9;
+    transition: 0.3s;
+}
+.nav-links a:hover {
+    color: #7c3aed;
+}
+.hero {
+    text-align: center;
+    padding: 120px 20px;
+}
+.hero h1 {
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+}
+.subtitle {
+    color: #7c3aed;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.description {
+    max-width: 600px;
+    margin: 0 auto 30px;
+    color: #cbd5e1;
+}
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #020617;
+    margin-top: 60px;
+    font-size: 0.9rem;
 }
