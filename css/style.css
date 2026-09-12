@@ -46,6 +46,7 @@ button {
 }
 .site-header {
   width: 100%;
+  box-sizing: border-box;
   margin: 0;
   display: flex;
   align-items: center;
@@ -870,22 +871,10 @@ button {
     width: min(100% - 36px, 1180px);
   }
   .site-header {
-    position: fixed;
-    inset: 0 0 auto 0;
-    height: 74px;
-
-    padding-left: 64px;
-    padding-right: 64px;
-
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-
-    background: rgba(248, 244, 237, 0.96);
-    backdrop-filter: blur(10px);
-    border-bottom: 1px solid rgba(40, 35, 30, 0.08);
-
-    z-index: 1000;
+    width: 100%;
+    box-sizing: border-box;
+    padding-left: 18px;
+    padding-right: 18px;
   }
   .desktop-nav,
   .header-cta {
